@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+.contactdetails{
+}
+.track{}
+
+.navbar-top {
+	padding-top: 14px;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #B90F1B;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #B90F1B;
+    background-color: #B90F1B;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #B90F1B;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #B90F1B;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #B90F1B;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #B90F1B;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+
+header .text-dec{
+		text-align: center;
+		color: #ffffff; 
+		text-shadow: 4px 4px 8px #000000;
+	}
+	
+header .intro-text .intro-lead-in img{
+	width: 100%;
+	height: auto;
+}
+
+.underline_black{
+	width: 100%;
+	height: auto;
+}
+	
+.video{
+	width: 100%;
+	height: auto; 
+	float: right;
+	margin-top: 50px;
+}
+	
+	
+@media(min-width:768px) {
+header .text-dec{
+		text-align: center;
+		color: #ffffff; 
+		text-shadow: 4px 4px 8px #000000;
+	}
+	
+header .intro-text .intro-lead-in img{
+	width: 720px;
+	height: 30px;
+}
+
+.underline_black{
+	width: 320px;
+	height: 15px;
+}
+
+.video{
+	width: 345px;
+	height: 220px; 
+	float: right;
+	margin-top: 50px;
+}
+
+}
+
+section#register {
+    /*background-color: #222;
+    background-image: url(../img/map-image.png);*/
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#register .section-heading {
+    color: #B90F1B;
+}
+
+section#register .form-group {
+    margin-bottom: 25px;
+}
+
+section#register .form-group input,
+section#register .form-group textarea {
+    padding: 20px;
+}
+
+section#register .form-group input.form-control {
+    height: auto;
+}
+
+section#register .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#register .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#register::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#register .text-danger {
+    color: #e74c3c;
+}
+
+
+.form-group iframe {
+    height: 306px;
+    width: 555px;
+}
+.gmap {
+    border: 10px solid #f6f5f0;
+    box-shadow: 0px 0px 0px 0px #e7e4dc;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-muted-justify{
+	color: #777;
+	text-align:justify;
+	text-align: center;
+}
+.about-heading {
+	float: center;
+    margin: 15px 0;
+    text-transform: none;
+	text-align: left;
+}
+
+.register-modal-space{
+		padding: 10px 30px 10px 30px;
+}
+
+.btn-color{
+	padding: 10px 50px 10px 50px;
+	background-color: #B90F1B;
+	color: #FFFFFF;
+}
+.btn-color:hover{
+	background-color: #FFFFFF;
+	color: #B90F1B;
+}
+@media(min-width:768px) {
+	
+.text-muted-justify{
+	color: #777;
+	text-align:justify;
+	text-align: center;
+}
+.about-heading {
+	float: center;
+    margin: 15px 0;
+    text-transform: none;
+	text-align: left;
+}
+
+}
+/*************************
+******Checklist edited CSS****
+**************************/
+.intro-heading{color: #ffffff; text-shadow: 3px 3px 8px #000000; font-weight: 300;}
+.asterik{color:red;}
+.weq{text-decoration: none !important;}
+.footer{padding:10px 0 10px 0;}
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+  background-color: #000000;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+#footer a {
+  color:#f7ab24
+}
+
+#footer a:hover {
+  color:#1B7B98
+}
+
+.gmap_custom{
+ width:600px;
+ height:450px;
+ border:0;
+}
+.powered{
+	color:white;
+}
